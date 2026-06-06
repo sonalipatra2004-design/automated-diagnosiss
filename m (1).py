@@ -218,10 +218,10 @@ RECOMMENDATIONS = {
 TEAM = [
     {"name": "Dr. Debabrata Singh",         "reg": "Project Guide",  "role": "Guide",                          "type": "guide",   "photo": "guide.jpeg"},
     {"name": "Sonali Patra",                "reg": "24C216A45",      "role": "Student",         "type": "student", "photo": "sonali.jpeg"},
-    {"name": "Jagruti Parida",              "reg": "MCA 2024-26",    "role": "Student",               "type": "student", "photo": "jagruti.jpeg"},
-    {"name": "Dharitri Pradhan",            "reg": "MCA 2024-26",    "role": "Student",               "type": "student", "photo": "dharitri.jpeg"},
-    {"name": "Smitarani Mahapatra",         "reg": "MCA 2024-26",    "role": "Student",             "type": "student", "photo": "smitarani.jpeg"},
-    {"name": "Barsha Priyadarshini Singh",  "reg": "MCA 2024-26",    "role": "Student",         "type": "student", "photo": "barsha.jpeg"},
+    {"name": "Jagruti Parida",              "reg": "24C216A47",    "role": "Student",               "type": "student", "photo": "jagruti.jpeg"},
+    {"name": "Dharitri Pradhan",            "reg": "24C216A30",    "role": "Student",               "type": "student", "photo": "dharitri.jpeg"},
+    {"name": "Smitarani Mahapatra",         "reg": "24C213A05",    "role": "Student",             "type": "student", "photo": "smitarani.jpeg"},
+    {"name": "Barsha Priyadarshini Singh",  "reg": "24C219A30",    "role": "Student",         "type": "student", "photo": "barsha.jpeg"},
 ]
 
 CHATBOT_ANSWERS = {

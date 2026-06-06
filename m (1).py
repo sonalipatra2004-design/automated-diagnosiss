@@ -217,11 +217,11 @@ RECOMMENDATIONS = {
 
 TEAM = [
     {"name": "Dr. Debabrata Singh",         "reg": "Project Guide",  "role": "Guide",                          "type": "guide",   "photo": "guide.jpeg"},
-    {"name": "Sonali Patra",                "reg": "24C216A45",      "role": "Project Lead & Frontend",         "type": "student", "photo": "sonali.jpeg"},
-    {"name": "Jagruti Parida",              "reg": "MCA 2024-26",    "role": "AI Model Training",               "type": "student", "photo": "jagruti.jpeg"},
-    {"name": "Dharitri Pradhan",            "reg": "MCA 2024-26",    "role": "Backend Developer",               "type": "student", "photo": "dharitri.jpeg"},
-    {"name": "Smitarani Mahapatra",         "reg": "MCA 2024-26",    "role": "Dataset Preparation",             "type": "student", "photo": "smitarani.jpeg"},
-    {"name": "Barsha Priyadarshini Singh",  "reg": "MCA 2024-26",    "role": "Documentation & Testing",         "type": "student", "photo": "barsha.jpeg"},
+    {"name": "Sonali Patra",                "reg": "24C216A45",      "role": "Student",         "type": "student", "photo": "sonali.jpeg"},
+    {"name": "Jagruti Parida",              "reg": "MCA 2024-26",    "role": "Student",               "type": "student", "photo": "jagruti.jpeg"},
+    {"name": "Dharitri Pradhan",            "reg": "MCA 2024-26",    "role": "Student",               "type": "student", "photo": "dharitri.jpeg"},
+    {"name": "Smitarani Mahapatra",         "reg": "MCA 2024-26",    "role": "Student",             "type": "student", "photo": "smitarani.jpeg"},
+    {"name": "Barsha Priyadarshini Singh",  "reg": "MCA 2024-26",    "role": "Student",         "type": "student", "photo": "barsha.jpeg"},
 ]
 
 CHATBOT_ANSWERS = {
@@ -1349,14 +1349,7 @@ elif st.session_state.logged_in:
             **PDF:** fpdf2
             """)
 
-        st.markdown("""
-        <div class="info-box">
-        📸 <b>To show member photos:</b> Place these files in the same folder as app.py:<br>
-        <code>guide.jpeg</code> &nbsp; <code>sonali.jpeg</code> &nbsp;
-        <code>jagruti.jpeg</code> &nbsp; <code>dharitri.jpeg</code> &nbsp;
-        <code>smitarani.jpeg</code> &nbsp; <code>barsha.jpeg</code>
-        </div>
-        """, unsafe_allow_html=True)
+
 
     # ─────────────────────────────────────────────
     # PROFILE
